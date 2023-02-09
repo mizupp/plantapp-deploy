@@ -2,7 +2,7 @@ import axios, { all } from "axios";
 import React from "react";
 import { useState } from "react";
 import "./styles.css";
-
+import searchicon from "../../assets/images/search-icon.png"
 const SearchBar = ({ loadResults }) => {
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -45,7 +45,7 @@ const SearchBar = ({ loadResults }) => {
           />
           <img
             className="search-icon"
-            src="src/assets/images/search-icon.png"
+            src={searchicon}
             alt="search icon"
           />
         </div>
