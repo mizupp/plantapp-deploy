@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+
+.login-back {
+  height: 100% !important;
+  width: 100% !important;
+  user-select: none;
+  background-color: #cdcdcd;
+  overflow: hidden auto;
+  background-image: url("https://miznauppal.b-cdn.net/smallbackground.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(10px);
+}
+svg {
+  height: 50vh;
+  width: vw;
+  position: absolute;
+}
+text {
+  font-size: 23px;
+}
+.text1,
+.text2,
+.text3 {
+  opacity: 1;
+}
+
+#plantintologin {
+  font-size: 3em;
+  font-weight: 700;
+  z-index: 10;
+  font-family: "Rubik Vinyl", cursive;
+  text-align: center;
+  color: #579434;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 2px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(82, 7, 7, 0.2),
+    0 20px 20px rgba(4, 181, 160, 0.15);
+}
+.login-page {
+  width: 500px;
+  padding: 8% 0 0;
+  margin: auto;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 500px;
+
+  margin: 0 auto 150px;
+  padding: 45px;
+  text-align: center;
+  border-top-left-radius: 70% 60%;
+  border-bottom-right-radius: 70% 60%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border: 50px;
+  border-style: dashed;
+  border-color: #f7f4e6 #579434;
+  background: rgba(255, 255, 255, 0.653);
+  box-shadow: 0 8px 32px 0 rgba(58, 26, 2, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.form .hidden-label {
+  visibility: hidden;
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: transparent;
+  text-align: center;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 1000;
+}
+.form input::placeholder {
+  color: gray;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4caf50;
+  width: 100%;
+  padding: 55px;
+  color: #ffffff;
+  font-size: 16px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border: 50px;
+  border-style: dashed;
+  border-color: #f7f4e6 #579434;
+  border-top-left-radius: 80% 60%;
+  border-bottom-right-radius: 70% 60%;
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #43a047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #cd6161;
+  font-size: 13px;
+  text-align: left;
+}
+.form .message a {
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before,
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #700a0a;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #ef3b3a;
+}
+
+canvas {
+  flex-shrink: 0;
+  background-color: #4f4f4f;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  object-fit: contain;
+}
+
+#message {
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.form h1,
+h4 {
+  margin: 0;
+}
+h1 {
+  font-size: 10vmin;
+  color: white;
+}
+
+h4 {
+  font-size: 4vmin;
+}
+
+.canvas-login {
+  width: 100vw;
+  height: 100vh;
+}

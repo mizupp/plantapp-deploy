@@ -1,0 +1,60 @@
+.health-prediction {
+  padding: 70px;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20px;
+  text-align: center;
+  background-color: var(--plantmediumgreen);
+}
+
+.health-prediction p {
+  font-size: 1.3rem;
+  padding: 30px;
+  color: var(--plantwhite);
+}
+
+/* .health-header {
+  margin-bottom: 20px;
+} */
+
+.health-heading {
+  color: var(--plantwhite);
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.health-upload-form {
+  margin-bottom: 10px;
+}
+
+.health-upload-image {
+  width: 50%;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.health-result {
+  font-size: 1.3rem;
+  color: var(--plantwhite);
+}
+
+#file-upload {
+  display: none;
+}
+
+/* Upload health photo button */
+
+.health-file-upload {
+  cursor: pointer;
+  color: var(--plantwhite);
+  font-weight: 700;
+  border: 1px solid var(--plantwhite);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.health-file-upload:hover {
+  color: var(--plantmediumgreen);
+  background-color: var(--plantwhite);
+}

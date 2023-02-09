@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --plantwhite: #fef9e8;
+  --plantbrown: #855e42;
+  --plantbeige: #dbd5c0;
+  --plantdarkgreen: #486949;
+  --plantmediumgreen: #619469;
+  --plantlightgreen: #c6ecae;
+  --plantcream: rgb(255, 243, 218);
+  --plantred: rgb(168, 1, 1);
+}
